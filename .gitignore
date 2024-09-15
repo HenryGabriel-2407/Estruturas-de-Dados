@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+
+Lista_encadeada_sem_ordenacao\*.docx
+.vscode
