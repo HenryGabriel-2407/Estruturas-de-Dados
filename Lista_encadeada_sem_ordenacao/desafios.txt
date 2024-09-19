@@ -2,19 +2,19 @@
 Objetivo: Modificar a função mostrar para que, ao exibir a lista, também informe o total de elementos na lista.
 Tarefa: Atualize a função mostrar para imprimir o número total de elementos ao final da exibição.
 
-2. Inserir no Início
+2. Inserir no Início (FINALIZADO)
 Objetivo: Implementar uma função para incluir um novo elemento no início da lista.
 Tarefa: Crie uma função incluir_inicio que insere um novo nó no início da lista e atualize o início da lista.
 
-3. Excluir Último Elemento
+3. Excluir Último Elemento (FINALIZADO)
 Objetivo: Implementar uma função para remover o último elemento da lista.
 Tarefa: Crie uma função retirar_ultimo que remove o último elemento e atualiza o ponteiro fim da lista.
 
-4. Remover Elementos Após um Valor
+4. Remover Elementos Após um Valor (FINALIZADO)
 Objetivo: Modificar a função inclusao_apos para remover todos os elementos que seguem um determinado valor de referência.
 Tarefa: Crie uma função remover_apos que remove todos os elementos que estão após um valor específico na lista.
 
-5. Inverter Lista
+5. Inverter Lista (FINALIZADO)
 Objetivo: Implementar uma função para inverter a ordem dos elementos na lista.
 Tarefa: Crie uma função inverter_lista que altera a lista para que a ordem dos elementos fique invertida.
 

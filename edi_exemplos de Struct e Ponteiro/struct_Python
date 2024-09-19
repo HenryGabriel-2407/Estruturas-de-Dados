@@ -1,0 +1,59 @@
+class Registro:
+    def __init__(self):
+        self.nome = ""
+        self.idade = 0
+        self.sexo = ""
+        self.altura = 0.0
+        self.status = False
+
+TAM = 10
+
+tabela = [Registro() for _ in range(TAM)]
+
+while True:
+    print("\\nMENU\\n----")
+    print("1 - Incluir")
+    print("2 - Mostrar")
+    print("3 - Retirar")
+    print("0 - Sair")
+    opcao = int(input("----\\nDigite sua opcao: "))
+
+    if opcao == 0:
+        break
+
+    if opcao == 1:
+        for i in range(TAM):
+            if not tabela[i].status:
+                break
+        if i == TAM - 1:
+            print("\n\nTABELA CHEIA\n\n")
+        else:
+            print("\nINCLUIR")
+            tabela[i].nome = input("Nome  : ")
+            tabela[i].idade = int(input("Idade : "))
+            tabela[i].sexo = input("Sexo  : ")
+            tabela[i].altura = float(input("Altura: "))
+            tabela[i].status = True
+            print("\nInclusao no indice [", i, "]\n\n", sep='')
+
+    if opcao == 2:
+        print("\nMOSTRAR\n\n")
+        for i in range(TAM):
+            if tabela[i].status:
+                print("Indice  : [", i, "]")
+                print("Nome    :  ", tabela[i].nome)
+                print("Idade   :  ", tabela[i].idade)
+                print("Sexo    :  ", tabela[i].sexo)
+                print("Altura  :  ", tabela[i].altura, "\n")
+
+    if opcao == 3:
+        print("\nRETIRAR\n\n")
+        i = int(input("\n\nDe qual indice retirar? "))
+        if i < 0 or i >= TAM:
+            print("\nIndice invalido\n")
+        else:
+            if tabela[i].status:
+                tabela[i].status = False
+                print("\n\nExcluido\n\n")
+            else:
+                print("\n\nIndice ja vazio\n\n")
