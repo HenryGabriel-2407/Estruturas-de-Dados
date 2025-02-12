@@ -1,0 +1,11 @@
+Filas são listas nas quais podem ser acessados os dois nodos que estão nas duas extremidades. As inclusões de novos nodos são efetuadas  no final, e as operações de consulta, alteração e de remoção, no seu início.
+FIFO: First Input First Output. 
+Ex: Uma fila de supermercado (sem furar a fila :D)
+Operações que podem ser realizadas são: criar uma fila vazia; inserir um novo nodo no final da fila; remover o nodo do início da fila; consultar e/ou modificar o nodo que está no início da fila; e destruir a fila.
+
+Índices:
+    Índices de início e fim;
+    início;
+    fim.
+
+Fila dupla - deque: É uma estrutura de dados que permite as operações dos nodos tanto no início quanto no final da fila. As operações que podemos fazer são: criar uma fila vazia, inserir, excluir, consultar e modificar nodos tanto no início quanto no final da fila, e destruir a fila.

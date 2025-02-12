@@ -1,0 +1,23 @@
+aplicação: programa que manipula dados;
+Tipo de dado: conjunto de valores (domínio) que uma variável pode assumir e do conjunto de operações que podem ser realizadas com esses valores;
+Tipos de dados básicos / primitivos: inteiros, reais, lógicos, caracteres, strings, etc., não possuem uma estrutura sobre seus valores e subtipos;
+Tipos de dados estruturados: arrays, listas, tuplas, conjuntos, dicionários, etc., são compostos de mais de um valor, existindo uma relação estrutural.
+Tipos de dados definidos pelo usuário: constituído por um um conjunto de componentes, que podem ser de tipos básicos ou estruturados, e que podem ter operações associadas a eles.
+
+Tipos abstratos de dados (TADs): estruturas de dados capazes de representar os tipos de dados que não foram previstos no núcleo das linguagens de programação e que são necessários aplicações específicas, dividos em:
+    Dados e operações;
+Separação entre conceito e implementação;
+Uma forma de definir um novo tipo de dado juntamente com as operações que manipulam esse dado. as aplicações que utilizam são denominadas clientes do TAD.
+A representação do TAD é composta pela definição da sua estrutura e suas operações;
+Vantagens: a possibilidade de sua utilização em diversas aplicações e a possibilidade de alterar o tipo sem alterar as aplicações que o utilizam;
+
+
+REPRESENTAÇÃO FÍSICA
+Contiguidade:
+    Os dados são armazenados em posições contíguas na memória. A ordem entre os nodos é definida implicitamente pela posição ocupad pelos nodos na memória (relacionamento lógico de ordem linear);
+    Vantagens: proteção de memória (a alocação é feita antes da utilização), eficiência de acesso (a busca é feita diretamente pela posição), transferência de dados, estrutura simples e representação;
+    Desvantagens: compartilhamento de memória não permitida, previsão de espaço físico, não apropriado para estruturas complexas e inserção e exclusão de componentes.
+Encadeamento:
+    Alocação dinâmica pelo gerenciador de memória, cada nó tem um endereço (em posições aleatórias) de memória único e pode ser acessado diretamente;
+    Vantagens: compartilhamento de memória, maleabilidade, facilidade de inserção e remoção de componentes;
+    Desvantagens: transferência de dados; gerência de memória mais onerosa, procedimentos menos intuitivos e acesso.

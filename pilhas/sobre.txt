@@ -1,0 +1,7 @@
+Restrição LIFO (Last input First Out):  O último elemento inserido é o primeiro a ser removido.
+Pilhas são listas nas quais o acesso somente pode ser feito em uma das extremidades, conhecida como topo. 
+Usadas nas aplicações em computação. 
+Para manipular uma pilha sobre arranjo é necessário:
+    -> o índice do arranjo a partir do qual a pilha pode ser implementada (base);
+    -> o índice ocupado pelo elemento que está no topo;
+    -> o tamanho da pilha.
